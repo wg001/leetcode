@@ -41,14 +41,6 @@ func initListNode(a ...int) *ListNode {
 		listNodeGo.Val = 0
 	}
 	return listNodeGo
-
-	//for ; listNodeGo != nil; listNodeGo = listNodeGo.Next {
-	//	if listNodeGo.Next == nil {
-	//		fmt.Printf("%d", listNodeGo.Val)
-	//	} else {
-	//		fmt.Printf("%d -> ", listNodeGo.Val)
-	//	}
-	//}
 }
 
 type ListNode struct {

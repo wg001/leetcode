@@ -5,13 +5,12 @@ import (
 )
 
 func main() {
-	fmt.Println(version_2())
+	str:="babadd"
+	fmt.Println(version_2(str))
 }
 
 //从中间往两边发散
-func version_2() string {
-	str := "babdd"
-
+func version_2(str string) string {
 	length := len(str)
 	start, end := 0, 0
 	for j := 0; j < length; j++ {
